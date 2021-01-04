@@ -10,7 +10,7 @@ Text Summarization is one of those Natural Language Processing (NLP) application
 
 ## Model Details
 The model was run for 24 epochs and the best performing training epoch is saved as the final model.  
-The Encoder takes a sequence of text as input and produces a list of hidden states in each time step. The list of hidden layers is the input to the Decoder along with the token sos (to indicate start of statement) and hidden states. Attention takes the current decoder’s hidden state and the list of encoder hidden states to calculate the Attention score and creates a context vector based on this score. The context vector and the decoder output are concatenated and passed to a fully connected feedforward layer to generate the output. These steps are repeated until either the maximum sentence length is achieved or the eos is predicted.
+The *Encoder* takes a sequence of text as input and produces a list of hidden states in each time step. The list of hidden layers is the input to the *Decoder* along with the token sos (to indicate start of statement) and hidden states. *Attention* takes the current decoder’s hidden state and the list of encoder hidden states to calculate the Attention score and creates a context vector based on this score. The context vector and the decoder output are concatenated and passed to a fully connected feedforward layer to generate the output. These steps are repeated until either the maximum sentence length is achieved or the eos is predicted.
 
 ## Files
 The different files present in the repository are listed below with their individual uses:
