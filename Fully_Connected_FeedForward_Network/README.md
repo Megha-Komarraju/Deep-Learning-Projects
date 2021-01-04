@@ -6,8 +6,8 @@
 2. Data Preprocessing using Tfidf Vectorizer and creating training and testing sets
 3. Traditional Machine Learning Model: Random Forest using sklearn with 10-fold cross CV and entropy criterion
 4. Fully connected feedforward Neural Network using PyTorch 
-   *Using 1 hidden layer with 50 neurons
-   *Using Dropout, CrossEntropy loss and ADAM optimizer to gain better accuracy and avoid overfitting
+   * Using 1 hidden layer with 50 neurons
+   * Using Dropout, CrossEntropy loss and ADAM optimizer to gain better accuracy and avoid overfitting
    
 ## Results:
 Training Accuracy achieved: 0.9937
