@@ -10,17 +10,17 @@
    * Using Dropout, CrossEntropy loss and ADAM optimizer to gain better accuracy and avoid overfitting
    
 ## Results:
-Training Accuracy achieved: 0.9937
-Validation Accuracy achieved : 0.9650
+Training Accuracy achieved: 0.9937  
+Validation Accuracy achieved : 0.9650  
 
 ## Libraries to be imported:
-import pandas as pd
-import numpy as np
-from sklearn.model_selection 
-import KFoldfrom sklearn.ensemble import RandomForestClassifier
-import torch
-import torch.nn as nn
-import torch.nn.functional as F from torch.utils.data
-import TensorDataset, DataLoader
-import torch.optim as optim
+import pandas as pd  
+import numpy as np  
+from sklearn.model_selection  
+import KFoldfrom sklearn.ensemble import RandomForestClassifier  
+import torch  
+import torch.nn as nn  
+import torch.nn.functional as F from torch.utils.data  
+import TensorDataset, DataLoader  
+import torch.optim as optim  
 
